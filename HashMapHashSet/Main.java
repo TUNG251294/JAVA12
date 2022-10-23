@@ -30,6 +30,7 @@ public class Main {
             System.out.println(student);
         }
 //HashSet không cho phép các phần tử trùng lặp, trong khi HashMap cho phép
+//HashMap không thể chứa các key trùng lặp,cho phép các giá trị null và key null
 
         Student[] arr = new Student[3];
         arr[0] = s1;
